@@ -1,0 +1,7 @@
+{
+  "name": "mi-hoja-de-VIDA",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
