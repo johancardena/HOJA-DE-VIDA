@@ -1,0 +1,75 @@
+.hv-content {
+  --background: #eef2f7;
+}
+
+.hero {
+  background: linear-gradient(135deg, #153d64, #194166);
+  color: white;
+  margin: 16px;
+  padding: 22px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  p {
+    font-size: 14px;
+    opacity: 0.9;
+  }
+}
+
+ion-card {
+  margin: 16px;
+  border-radius: 18px;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
+}
+
+ion-card-title {
+  color: #5783af;
+  font-weight: bold;
+  text-align: center;
+}
+
+.item {
+  background: #6b7481;
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+
+  h3 {
+    margin: 0 0 6px 0;
+    color: #8b1e1e;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  span {
+    background: #1c3e61;
+    color: rgb(150, 128, 57);
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+  }
+}
+
+p {
+  color: #b4aaaa;
+  font-size: 15px;
+}

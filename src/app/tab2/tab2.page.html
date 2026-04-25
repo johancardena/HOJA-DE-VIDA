@@ -1,17 +1,60 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Perfil Profesional</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="hv-content">
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <section class="hero">
+    <h1>Experiencia y Habilidades</h1>
+    <p>Resumen de capacidades, conocimientos y referencias personales.</p>
+  </section>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Experiencia</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <div class="item">
+        <h3>Soporte Técnico</h3>
+        <p>Mantenimiento de equipos, instalación de software y solución de problemas básicos.</p>
+      </div>
+
+      <div class="item">
+        <h3>Desarrollo Web</h3>
+        <p>Creación de interfaces usando HTML, CSS, JavaScript, Angular e Ionic.</p>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Habilidades</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Angular</span>
+        <span>Ionic</span>
+        <span>Bases de Datos</span>
+        <span>Trabajo en Equipo</span>
+        <span>Responsabilidad</span>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Referencias</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p><b>Nombre:</b> Juan Pérez</p>
+      <p><b>Teléfono:</b> 09XXXXXXXX</p>
+      <p><b>Correo:</b> referencia@email.com</p>
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>

@@ -1,0 +1,36 @@
+.hv-content {
+  --background: #f4f6f8;
+
+  ion-card {
+    margin: 15px;
+    border-radius: 14px;
+    box-shadow: 0 4px 10px rgba(148, 137, 137, 0.12);
+  }
+
+  .profile-header {
+    text-align: center;
+  }
+
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  h2 {
+    color: #245585;
+    font-weight: bold;
+  }
+
+  ion-card-title {
+    color: #8b1e1e;
+    text-align: center;
+  }
+
+  p {
+    color: #879c84;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+}

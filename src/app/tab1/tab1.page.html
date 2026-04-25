@@ -1,17 +1,42 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Hoja de Vida</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="hv-content">
+  <ion-card>
+    <ion-card-content class="profile-header">
+      <img src="\assets\foto.jpg" class="profile-img">
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+      <h2>Joahn Cárdenas</h2>
+      <p>
+        Estudiante de desarrollo de software con conocimientos en aplicaciones web,
+        bases de datos y soporte técnico.
+      </p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Datos Personales</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p><b>Teléfono:</b> 0979971783</p>
+      <p><b>Dirección:</b> QUITO-ECUADOR</p>
+      <p><b>Correo:</b> johan.cardenas.001@gmail.com</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Formación Académica</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <h3>Tecnología Superior en Desarrollo de Software</h3>
+      <p>Escuela Politécnica Nacional | 2023 - Presente</p>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
